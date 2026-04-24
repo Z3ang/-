@@ -207,13 +207,13 @@ body{
   font-size:.62rem;color:rgba(0,0,0,0.2);letter-spacing:.5px;line-height:1.6;
 }
 
-.readmore-area{width:100%;max-width:400px;margin:0 auto 20px;text-align:center;animation:fadeUp .6s ease .3s both}
+.readmore-area{width:100%;max-width:400px;margin:0 auto 20px;text-align:center;animation:fadeUp .6s ease .3s both;display:flex;flex-direction:column;align-items:center;gap:10px}
 .readmore-label{font-size:.72rem;color:var(--text-light);margin-bottom:8px;display:block}
 .readmore-link{
-  display:inline-flex;align-items:center;gap:6px;
-  padding:10px 22px;border-radius:50px;
+  display:inline-flex;align-items:center;justify-content:center;gap:6px;
+  width:100%;padding:12px 22px;border-radius:50px;
   background:rgba(230,0,18,0.06);border:1.5px solid rgba(230,0,18,0.15);
-  color:var(--red);font-size:.85rem;font-weight:700;
+  color:var(--red);font-size:.82rem;font-weight:700;
   text-decoration:none;transition:all .2s ease;
 }
 .readmore-link:hover{background:var(--red);color:var(--white);border-color:var(--red);transform:translateY(-1px)}
@@ -345,7 +345,10 @@ function showResult(){
     <div class="readmore-area">
       <span class="readmore-label">想了解更多 Z 世代的 AI 使用行為？</span>
       <a class="readmore-link" href="https://caratweekly.com/2026/04/08/%E7%95%B6-ai-%E6%88%90%E7%82%BA%E6%97%A5%E5%B8%B8%E5%8A%A9%E6%89%8B%EF%BC%9A%E7%9C%8B%E8%A6%8B-z-%E4%B8%96%E4%BB%A3%E4%BD%BF%E7%94%A8%E7%94%9F%E6%88%90%E5%BC%8F-ai-%E7%9A%84%E7%9C%9F%E5%AF%A6%E6%A8%A3/?ldtag_cl=SE46nXr3Q6SkL0PZbY60bQAA_oa&lt_r=022&srclt=oa&_ly_c=484e3a9d-7af7-43a4-a42f-43d96d8eb46d&_ly_r=022&_ly_src=oa#more-36192" target="_blank" rel="noopener">
-        延伸閱讀：凱絡媒體週報 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+        延伸閱讀①：Z世代使用生成式AI的真實樣貌 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+      </a>
+      <a class="readmore-link" href="https://caratweekly.com/2026/04/24/z-%e4%b8%96%e4%bb%a3%e7%94%9f%e6%88%90%e5%bc%8f-ai-%e5%a4%a7%e8%aa%bf%e6%9f%a5%ef%bc%9a%e5%9c%a8%e3%80%8c%e9%a2%a8%e9%9a%aa%e7%84%a6%e6%85%ae%e3%80%8d%e8%88%87%e3%80%8c%e5%af%a6%e7%94%a8%e4%b8%bb/" target="_blank" rel="noopener">
+        延伸閱讀②：Z世代生成式AI大調查 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
       </a>
     </div>
     <button class="retry-btn" onclick="showScreen('intro')">再測一次 ↻</button>
